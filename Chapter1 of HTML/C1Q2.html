@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mini Browser Demo</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #eaeaea;
+        }
+
+        /* Browser container */
+        .browser {
+            width: 90%;
+            margin: 30px auto;
+            border: 1px solid #aaa;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        /* Top bar */
+        .top-bar {
+            background: #f1f1f1;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+
+        /* Buttons */
+        .btn {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 6px;
+        }
+
+        .red { background: #ff5f57; }
+        .yellow { background: #ffbd2e; }
+        .green { background: #28c840; }
+
+        /* Address bar */
+        .address-bar {
+            flex: 1;
+            margin-left: 15px;
+            padding: 6px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+            background: #fff;
+        }
+
+        /* Content area */
+        .content {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="browser">
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="btn red"></div>
+        <div class="btn yellow"></div>
+        <div class="btn green"></div>
+
+        <input class="address-bar" value="https://www.demo-browser.com" readonly>
+    </div>
+
+    <!-- Page Content -->
+    <div class="content">
+        <h1>Welcome to Mini Browser</h1>
+        <p>
+            This is a browser-style demo page created using only HTML and CSS.
+        </p>
+        <p>
+            You can use this layout to build:
+        </p>
+
+        <ul>
+            <li>Browser UI Demo</li>
+            <li>Web App Mockup</li>
+            <li>College HTML Project</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
